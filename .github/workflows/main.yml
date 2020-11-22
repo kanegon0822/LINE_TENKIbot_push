@@ -8,6 +8,7 @@ name: line-push-auto
 # 実はgithub actionsのcronの時刻はUTCなので、日本時間に合わせるために日本時刻から9時間マイナスで設定する必要があります。
 on:
   push:
+    
 #   schedule:
 #     - cron: '55 21 * * *'
 
